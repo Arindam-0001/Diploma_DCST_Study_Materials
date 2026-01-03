@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #1d2671, #c33764);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.years {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.year {
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 8px;
+  background: #f3f3f3;
+  color: #333;
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+
+.year:hover {
+  background: #e0e0e0;
+  transform: scale(1.03);
+}
